@@ -8,5 +8,8 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "no-unused-vars": 0,
+    "no-undef": 0
+  }
 }
