@@ -1,10 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+import { createRoot } from 'react-dom/client'; // Asegúrate de que la ruta sea correcta
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/App.jsx'; // Asegúrate de que la ruta sea correcta
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = createRoot(document.getElementById('root'));
+
+// Renderiza tu aplicación usando root.render
+root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
