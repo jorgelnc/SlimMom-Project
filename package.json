@@ -20,6 +20,8 @@
     "@vitejs/plugin-react-refresh": "^1.3.6",
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
     "glob": "^8.1.0",
     "vite": "^4.0.5"
   },
