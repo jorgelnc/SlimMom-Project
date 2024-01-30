@@ -8,8 +8,7 @@ const root = createRoot(document.getElementById('root'));
 // Renderiza tu aplicación usando root.render
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+         <App />
+    <BrowserRouter/>
   </React.StrictMode>
 );
