@@ -1,4 +1,4 @@
-import e from "../../node_modules/react/index.jsx";
+import e from "../../../node_modules/react/index.jsx";
 import r from "../../components/Header/Header.jsx";
 import a from "./Home.module.css.jsx";
 import t from "../../components/CaloriesCalculatorForm/CaloriesCalculatorForm.jsx";

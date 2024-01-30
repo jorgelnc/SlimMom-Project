@@ -1,6 +1,6 @@
-import a, { r as s } from "../../node_modules/react/index.jsx";
-import { useFormik as h } from "../../node_modules/formik/dist/formik.esm.jsx";
-import { object as g, number as u, string as E } from "../../node_modules/yup/index.esm.jsx";
+import a, { r as s } from "../../../node_modules/react/index.jsx";
+import { useFormik as h } from "../../../node_modules/formik/dist/formik.esm.jsx";
+import { object as g, number as u, string as E } from "../../../node_modules/yup/index.esm.jsx";
 import v from "../Modal/Modal.jsx";
 import l from "./CaloriesCalculatorForm.module.css.jsx";
 const k = () => {

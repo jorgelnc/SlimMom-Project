@@ -1,4 +1,4 @@
-import g, { r } from "../node_modules/react/index.jsx";
+import g, { r } from "../../node_modules/react/index.jsx";
 import { auth as n } from "../firebase/firebase.jsx";
 const h = r.createContext();
 function A({ children: u }) {

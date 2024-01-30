@@ -1,10 +1,10 @@
-import e, { r } from "../../node_modules/react/index.jsx";
-import { aa as N, ak as g } from "../../node_modules/@firebase/auth/dist/esm2017/index-dd468b12.jsx";
-import "../../node_modules/@firebase/app/dist/esm/index.esm2017.jsx";
-import "../../node_modules/@firebase/logger/dist/esm/index.esm2017.jsx";
+import e, { r } from "../../../node_modules/react/index.jsx";
+import { aa as N, ak as g } from "../../../node_modules/@firebase/auth/dist/esm2017/index-dd468b12.jsx";
+import "../../../node_modules/@firebase/app/dist/esm/index.esm2017.jsx";
+import "../../../node_modules/@firebase/logger/dist/esm/index.esm2017.jsx";
 import { auth as h } from "../../firebase/firebase.jsx";
 import t from "./RegisterForm.module.css.jsx";
-import { useNavigate as C } from "../../node_modules/react-router/dist/index.jsx";
+import { useNavigate as C } from "../../../node_modules/react-router/dist/index.jsx";
 const k = () => {
   const s = C(), [l, c] = r.useState(""), [n, m] = r.useState(""), [o, u] = r.useState(""), [i, p] = r.useState(null), d = async () => {
     try {

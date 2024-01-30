@@ -1,5 +1,5 @@
-import e, { r as p } from "../../node_modules/react/index.jsx";
-import { Link as u } from "../../node_modules/react-router-dom/dist/index.jsx";
+import e, { r as p } from "../../../node_modules/react/index.jsx";
+import { Link as u } from "../../../node_modules/react-router-dom/dist/index.jsx";
 import { filterObjectsByGroupBloodNotAllowed as E } from "../../shared/shared.jsx";
 import N from "../../resources/productos.json.jsx";
 import t from "./Modal.module.css.jsx";

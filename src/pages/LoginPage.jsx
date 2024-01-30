@@ -1,11 +1,11 @@
-import e, { r } from "../node_modules/react/index.jsx";
+import e, { r } from "../../node_modules/react/index.jsx";
 import d from "../components/Header/Header.jsx";
-import { ab as g } from "../node_modules/@firebase/auth/dist/esm2017/index-dd468b12.jsx";
-import "../node_modules/@firebase/app/dist/esm/index.esm2017.jsx";
-import "../node_modules/@firebase/logger/dist/esm/index.esm2017.jsx";
+import { ab as g } from "../../node_modules/@firebase/auth/dist/esm2017/index-dd468b12.jsx";
+import "../../node_modules/@firebase/app/dist/esm/index.esm2017.jsx";
+import "../../node_modules/@firebase/logger/dist/esm/index.esm2017.jsx";
 import { auth as E } from "../firebase/firebase.jsx";
 import t from "./LoginPage.module.css.jsx";
-import { useNavigate as N } from "../node_modules/react-router/dist/index.jsx";
+import { useNavigate as N } from "../../node_modules/react-router/dist/index.jsx";
 const S = () => {
   const n = N(), [s, i] = r.useState(""), [l, c] = r.useState(""), [o, m] = r.useState(null), u = async () => {
     try {

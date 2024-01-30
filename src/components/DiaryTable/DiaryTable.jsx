@@ -1,8 +1,8 @@
-import e, { r as l } from "../../node_modules/react/index.jsx";
-import { useReactTable as T } from "../../node_modules/@tanstack/react-table/build/lib/index.jsx";
-/* empty css                                                         */import F from "../../images/Laves-calculator-desk.png.jsx";
+import e, { r as l } from "../../../node_modules/react/index.jsx";
+import { useReactTable as T } from "../../../node_modules/@tanstack/react-table/build/lib/index.jsx";
+/* empty css                                                            */import F from "../../images/Laves-calculator-desk.png.jsx";
 import t from "./DiaryTable.module.css.jsx";
-import { getCoreRowModel as H, getPaginationRowModel as k, getSortedRowModel as x } from "../../node_modules/@tanstack/table-core/build/lib/index.jsx";
+import { getCoreRowModel as H, getPaginationRowModel as k, getSortedRowModel as x } from "../../../node_modules/@tanstack/table-core/build/lib/index.jsx";
 const z = () => {
   l.useState(null);
   const [g, G] = l.useState((/* @__PURE__ */ new Date()).toLocaleDateString());
