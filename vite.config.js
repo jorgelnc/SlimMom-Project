@@ -8,6 +8,7 @@ export default defineConfig({
     lib: {
       entry: glob.sync(path.resolve(__dirname, 'lib/**/*.ts')),
       name: '',
+      formats: [esm]
     },
     rollupOptions: {
       output: {
