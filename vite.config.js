@@ -16,7 +16,7 @@ export default {
                 preserveModules: true,
                 preserveModulesRoot: "src",
                 entryFileNames: ({name: index}) => {
-                    return `${index}.jsx`
+                    return `${index}.js`
                 }
             }
         }
