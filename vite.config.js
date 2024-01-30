@@ -6,9 +6,8 @@ import glob from 'glob';
 export default defineConfig({
   build: {
     lib: {
-      entry: glob.sync(path.resolve(__dirname, 'lib/**/*.ts')),
+      entry: glob.sync(path.resolve(__dirname, 'lib/**/*.js')),
       name: '',
-      formats: [esm]
     },
     rollupOptions: {
       output: {
