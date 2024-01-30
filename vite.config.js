@@ -8,16 +8,16 @@ export default {
         cssCodeSplit: true,
         jsxInject: `import React from 'react'`,
         lib: {
-            entry: path.resolve(__dirname, "src/index.{js,css,jsx, html}"),
+            entry: path.resolve(__dirname, "src/index.jsx"),
             formats: ["esm"]
         },
         rollupOptions: {
-            input: glob.sync(path.resolve(__dirname, "src/index.{js,css,jsx, html}")),
+            input: glob.sync(path.resolve(__dirname, "src/index.jsx"),
             output: {
                 preserveModules: true,
                 preserveModulesRoot: "src",
                 entryFileNames: ({name: index}) => {
-                    return `${index}.js`
+                    return `${index}.jsx`
                 }
             }
         }
