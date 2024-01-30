@@ -12,7 +12,7 @@ export default {
             formats: ["esm"]
         },
         rollupOptions: {
-            input: glob.sync(path.resolve(__dirname, "src/index.jsx"),
+            input: glob.sync(path.resolve(__dirname, "src/index.jsx")),
             output: {
                 preserveModules: true,
                 preserveModulesRoot: "src",
