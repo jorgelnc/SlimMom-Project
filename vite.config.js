@@ -11,13 +11,14 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-       preserveModules: true,
-       preserveModulesRoot: "src",
-       entryFileNames: ({name: fileName}) => {
-       return `${fileName}.js`
+        preserveModules: true,
+        preserveModulesRoot: "src",
+        entryFileNames: ({ name: fileName }) => {
+          return `${fileName}.js`
+        },
       },
     },
-},  
+  },
 },);
 
 
