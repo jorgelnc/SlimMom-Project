@@ -15,8 +15,8 @@ export default {
             output: {
                 preserveModules: true,
                 preserveModulesRoot: "src",
-                entryFileNames: ({name: fileName}) => {
-                    return `${fileName}.js`
+                entryFileNames: ({name: index}) => {
+                    return `${index}.js`
                 }
             }
         }
