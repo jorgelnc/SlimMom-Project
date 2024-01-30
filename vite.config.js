@@ -1,21 +1,16 @@
-import ReactRefresh from '@vitejs/plugin-react-refresh';
-import { defineConfig } from 'vite';
-import injectHTML from 'vite-plugin-html-inject';
-import FullReload from 'vite-plugin-full-reload';
-import path from 'path';
+import path from "path";
 import glob from "glob";
 
-export default defineConfig(({ command }) => {
-  return {
-    define: {
-      [command === 'serve' ? 'global' : '_global']: {},
-    },
-    root: 'src',
-    plugins: [ReactRefresh(), injectHTML(), FullReload(['./src/**/**.html'])],
+export default {
     build: {
-      sourcemap: true,
-      outDir: '../dist',
-     rollupOptions: {
+        outDir: path.resolve(__dirname, "build"),
+        emptyOutDir: true,
+        cssCodeSplit: true,
+        lib: {
+            entry: path.resolve(__dirname, "src/index.js"),
+            formats: ["esm"]
+        },
+        rollupOptions: {
             input: glob.sync(path.resolve(__dirname, "src/**/*.{js,css}")),
             output: {
                 preserveModules: true,
@@ -25,9 +20,5 @@ export default defineConfig(({ command }) => {
                 }
             }
         }
-    },
-    optimizeDeps: {
-      include: ['react', 'react-dom'], // Añade otras dependencias si las necesitas
-    },
-  };
-});
+    }
+}
