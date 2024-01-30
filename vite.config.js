@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
-    plugins: [ReactRefresh(), injectHTML(), FullReload(['./src/**/**.{js,jsx,html}'])],
+    plugins: [ReactRefresh(), injectHTML(), FullReload(['./src/**/**.js'])],
     build: {
       sourcemap: true,
       outDir: '../dist',
