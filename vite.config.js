@@ -2,7 +2,7 @@ import path from "path";
 import glob from "glob";
 
 export default {
-  root: 'src',
+    root: 'src/index.jsx',
     build: {
         outDir: path.resolve(__dirname, "build"),
         emptyOutDir: true,
