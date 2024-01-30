@@ -2,8 +2,7 @@ import path from "path";
 import glob from "glob";
 
 export default {
-    root: 'src/index.jsx',
-    build: {
+       build: {
         outDir: path.resolve(__dirname, "build"),
         emptyOutDir: true,
         cssCodeSplit: true,
@@ -16,7 +15,7 @@ export default {
             input: glob.sync(path.resolve(__dirname, "src/index.jsx")),
             output: {
                 preserveModules: true,
-                preserveModulesRoot: "src",
+                preserveModulesRoot: "src/index.jsx",
                 entryFileNames: ({name: index}) => {
                     return `${index}.jsx`
                 }
