@@ -7,11 +7,11 @@ export default {
         emptyOutDir: true,
         cssCodeSplit: true,
         lib: {
-            entry: path.resolve(__dirname, "src/**/*.{js,css,jsx}"),
+            entry: path.resolve(__dirname, "src/**/*.{js,css,jsx, html}"),
             formats: ["esm"]
         },
         rollupOptions: {
-            input: glob.sync(path.resolve(__dirname, "src/**/*.{js,css,jsx}")),
+            input: glob.sync(path.resolve(__dirname, "src/**/*.{js,css,jsx, html}")),
             output: {
                 preserveModules: true,
                 preserveModulesRoot: "src",
