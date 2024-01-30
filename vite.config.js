@@ -2,7 +2,7 @@ import ReactRefresh from '@vitejs/plugin-react-refresh';
 import { defineConfig } from 'vite';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
-import { resolve } from 'path';
+import path from 'path';
 import glob from "glob";
 
 export default defineConfig(({ command }) => {
