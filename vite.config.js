@@ -14,20 +14,16 @@ export default defineConfig(({ command }) => {
     build: {
       sourcemap: true,
       outDir: '../dist',
-      rollupOptions: {
-        input: {
-          main: resolve(__dirname, 'index.js'),
-          nested: resolve(__dirname, 'nested/index.js'),
-        },
-        output: {
-          manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
+     rollupOptions: {
+            input: glob.sync(path.resolve(__dirname, "src/**/*.{js,css}")),
+            output: {
+                preserveModules: true,
+                preserveModulesRoot: "src",
+                entryFileNames: ({name: fileName}) => {
+                    return `${fileName}.js`
+                }
             }
-          },
-          entryFileNames: 'commonHelpers.js',
-        },
-      },
+        }
     },
     optimizeDeps: {
       include: ['react', 'react-dom'], // Añade otras dependencias si las necesitas
