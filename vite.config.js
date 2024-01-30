@@ -6,6 +6,7 @@ export default {
         outDir: path.resolve(__dirname, "build"),
         emptyOutDir: true,
         cssCodeSplit: true,
+        jsxInject: `import React from 'react'`,
         lib: {
             entry: path.resolve(__dirname, "src/index.{js,css,jsx, html}"),
             formats: ["esm"]
