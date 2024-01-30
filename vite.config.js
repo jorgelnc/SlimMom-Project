@@ -11,8 +11,10 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        preserveModules: true,
-        // ^^^ This one is not required but if I understand correctly you do need it in your use case
+       preserveModules: true,
+       preserveModulesRoot: "src",
+       entryFileNames: ({name: fileName}) => {
+       return `${fileName}.js`
       },
     },
 },  
