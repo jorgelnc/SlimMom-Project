@@ -7,7 +7,7 @@ export default {
         emptyOutDir: true,
         cssCodeSplit: true,
         lib: {
-            entry: path.resolve(__dirname, "src/index.js"),
+            entry: path.resolve(__dirname, "src/**/*.{js,css,jsx}"),
             formats: ["esm"]
         },
         rollupOptions: {
