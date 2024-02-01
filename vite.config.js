@@ -2,7 +2,7 @@ import path from 'path';
 import glob from 'glob';
 
 export default {
-  build: {
+  esbuild: {
     outDir: path.resolve(__dirname, 'build'),
     emptyOutDir: true,
     cssCodeSplit: true,
