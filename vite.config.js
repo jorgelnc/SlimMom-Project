@@ -15,9 +15,9 @@ export default {
       input: glob.sync(path.resolve(__dirname, 'src/index.{js,html}')),
       output: {
         preserveModules: true,
-        preserveModulesRoot: 'src/index.js',
-        entryFileNames: ({ name: FileName }) => {
-          return `${FileName}.js`;
+        preserveModulesRoot: 'src/index.{js,html}',
+        entryFileNames: ({ name: index }) => {
+          return `${index}.js`;
         },
       },
     },
