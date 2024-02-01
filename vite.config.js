@@ -8,7 +8,7 @@ export default {
     cssCodeSplit: true,
     jsxInject: `import React from 'react'`,
     lib: {
-      entry: path.resolve(__dirname, 'src/index.js'),
+      entry: path.resolve(__dirname, 'src/index.{js,html}'),
       formats: ['esm'],
     },
     rollupOptions: {
