@@ -3,7 +3,6 @@ import path from 'path';
 import glob from 'glob';
 
 export default defineConfig({
-  plugins: [react()],
   esbuild: {
     jsxFactory: 'React.createElement',
     jsxFragment: 'React.Fragment',
