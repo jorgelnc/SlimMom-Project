@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.53d2108a.css",
-    "main.js": "/static/js/main.64de661e.js",
-    "static/media/Strawberry-desk.png": "/static/media/Strawberry-desk.de8eb04896e351da1acd.png",
-    "static/media/banana-desk.png": "/static/media/banana-desk.4212868209c33d28556b.png",
-    "static/media/banana-tablet.png": "/static/media/banana-tablet.13e57e2ac8d54f01eb28.png",
-    "static/media/Strawberry-tablet.png": "/static/media/Strawberry-tablet.ee58f024a603a68e9507.png",
-    "static/media/leaves-desk.png": "/static/media/leaves-desk.07eae1498dc43a8c9410.png",
-    "static/media/logo-desk.svg": "/static/media/logo-desk.8fbdf6ed7c77eaed0cff8123c6f6ab05.svg",
-    "static/media/logo-mobile.svg": "/static/media/logo-mobile.ecc151861c984dd4c3ee.svg",
-    "static/media/laves-tablet.png": "/static/media/laves-tablet.07dbb10770b29ee5cf64.png",
-    "static/media/Laves-calculator-desk.png": "/static/media/Laves-calculator-desk.ffd82ca94b80e5e20934.png",
-    "static/media/Vector-tablet.svg": "/static/media/Vector-tablet.8e9f2abb49c97a092b44.svg",
-    "index.html": "/index.html",
-    "static/media/Vector-desk.svg": "/static/media/Vector-desk.c655d736b7c28331ec14.svg",
-    "main.53d2108a.css.map": "/static/css/main.53d2108a.css.map",
-    "main.64de661e.js.map": "/static/js/main.64de661e.js.map"
+    "main.css": "/SlimMom-Project/static/css/main.29736f03.css",
+    "main.js": "/SlimMom-Project/static/js/main.fc7b7616.js",
+    "static/media/Strawberry-desk.png": "/SlimMom-Project/static/media/Strawberry-desk.de8eb04896e351da1acd.png",
+    "static/media/banana-desk.png": "/SlimMom-Project/static/media/banana-desk.4212868209c33d28556b.png",
+    "static/media/banana-tablet.png": "/SlimMom-Project/static/media/banana-tablet.13e57e2ac8d54f01eb28.png",
+    "static/media/Strawberry-tablet.png": "/SlimMom-Project/static/media/Strawberry-tablet.ee58f024a603a68e9507.png",
+    "static/media/leaves-desk.png": "/SlimMom-Project/static/media/leaves-desk.07eae1498dc43a8c9410.png",
+    "static/media/logo-desk.svg": "/SlimMom-Project/static/media/logo-desk.8fbdf6ed7c77eaed0cff8123c6f6ab05.svg",
+    "static/media/logo-mobile.svg": "/SlimMom-Project/static/media/logo-mobile.ecc151861c984dd4c3ee.svg",
+    "static/media/laves-tablet.png": "/SlimMom-Project/static/media/laves-tablet.07dbb10770b29ee5cf64.png",
+    "static/media/Laves-calculator-desk.png": "/SlimMom-Project/static/media/Laves-calculator-desk.ffd82ca94b80e5e20934.png",
+    "static/media/Vector-tablet.svg": "/SlimMom-Project/static/media/Vector-tablet.8e9f2abb49c97a092b44.svg",
+    "index.html": "/SlimMom-Project/index.html",
+    "static/media/Vector-desk.svg": "/SlimMom-Project/static/media/Vector-desk.c655d736b7c28331ec14.svg",
+    "main.29736f03.css.map": "/SlimMom-Project/static/css/main.29736f03.css.map",
+    "main.fc7b7616.js.map": "/SlimMom-Project/static/js/main.fc7b7616.js.map"
   },
   "entrypoints": [
-    "static/css/main.53d2108a.css",
-    "static/js/main.64de661e.js"
+    "static/css/main.29736f03.css",
+    "static/js/main.fc7b7616.js"
   ]
 }
