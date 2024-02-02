@@ -6,7 +6,7 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "babel-node src/index.js",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "react-scripts build",
     "preview": "vite preview",
     "lint:js": "eslint src/**/*.{js,jsx}"
   },
